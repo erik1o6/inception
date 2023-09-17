@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/technology-vector-seamless-pattern-banner-geometric-striped-ornament-monochrome-linear-background-illustration_1142-12863.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+h2 {
+    text-align: center;
+}
+
+.disp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 60%;
+    background: #044361;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    height: 400px;
+    left: 20%;
+}
+
+.left {
+    float: left;
+    width: 560px;
+    padding-top: 50px;
+}
+
+.right {
+    color: #ffffff;
+    margin-left: 560px;
+    padding-left: 20px;
+}
