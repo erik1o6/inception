@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 80%;
-    background: #08401a;
+    background: rgba(110, 163, 13, 0.9); /* This sets the background color with an opacity of 0.9 (90% opaque) */
     padding: 2%;
     border: solid 1px black;
     border-radius: 20px;
