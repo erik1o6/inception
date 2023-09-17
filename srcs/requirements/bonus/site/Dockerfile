@@ -1,8 +1,10 @@
-FROM  alpine:3.12.0
+FROM alpine:3.12.0
 
-RUN apk update; \
+WORKDIR /app
+
+RUN apk update && \
     apk add --update nodejs npm
 
-COPY ./conf /
+COPY ./conf /app
 
 CMD ["node", "run.js"]
